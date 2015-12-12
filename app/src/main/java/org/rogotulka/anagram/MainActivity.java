@@ -22,10 +22,12 @@ public class MainActivity extends AppCompatActivity implements OnLoginListener {
 
         if(code == null){
             transaction.replace(R.id.instagram_fragment, new LoginFragment());
-            transaction.addToBackStack(null);
-            transaction.commit();
-        }
 
+        }else{
+            transaction.replace(R.id.instagram_fragment, new LoginFragment());
+        }
+        transaction.addToBackStack(null);
+        transaction.commit();
     }
 
 
