@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Anagram</string>
+    <string name="preferences_code">code</string>
 </resources>
