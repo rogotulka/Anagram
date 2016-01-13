@@ -1,4 +1,4 @@
-package org.rogotulka.anagram;
+package org.rogotulka.anagram.ui;
 
 import android.app.Fragment;
 import android.app.ProgressDialog;
@@ -11,6 +11,9 @@ import android.webkit.WebResourceError;
 import android.webkit.WebResourceRequest;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
+
+import org.rogotulka.anagram.R;
+import org.rogotulka.anagram.api.InstagramApi;
 
 public class LoginFragment extends Fragment {
 

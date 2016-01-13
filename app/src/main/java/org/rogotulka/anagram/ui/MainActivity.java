@@ -1,4 +1,4 @@
-package org.rogotulka.anagram;
+package org.rogotulka.anagram.ui;
 
 
 import android.app.FragmentTransaction;
@@ -6,6 +6,8 @@ import android.content.Context;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+
+import org.rogotulka.anagram.R;
 
 public class MainActivity extends AppCompatActivity implements OnLoginListener {
 

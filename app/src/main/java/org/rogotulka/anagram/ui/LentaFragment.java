@@ -1,10 +1,12 @@
-package org.rogotulka.anagram;
+package org.rogotulka.anagram.ui;
 
 import android.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+
+import org.rogotulka.anagram.R;
 
 public class LentaFragment extends Fragment {
 

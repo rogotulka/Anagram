@@ -1,4 +1,4 @@
-package org.rogotulka.anagram;
+package org.rogotulka.anagram.ui;
 
 public interface OnLoginListener {
     void onSuccessLogin(String code);
