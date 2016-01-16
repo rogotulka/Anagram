@@ -14,6 +14,7 @@ import android.webkit.WebViewClient;
 
 import org.rogotulka.anagram.R;
 import org.rogotulka.anagram.api.InstagramApi;
+import org.rogotulka.anagram.api.request.Request;
 
 public class LoginFragment extends Fragment {
 
@@ -27,7 +28,7 @@ public class LoginFragment extends Fragment {
 
         @Override
         public boolean shouldOverrideUrlLoading(WebView view, String url) {
-            if (url.startsWith(InstagramApi.CALLBACK_URL)) {
+            if (url.startsWith(Request.CALLBACK_URL)) {
                 String urls[] = url.split("=");
                 mOnLoginListener.onSuccessLogin(urls[1]);
                 return true;

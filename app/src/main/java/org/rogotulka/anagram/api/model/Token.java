@@ -1,17 +1,5 @@
 package org.rogotulka.anagram.api.model;
 
-/*
-* {
-    "access_token": "fb2e77d.47a0479900504cb3ab4a1f626d174d2d",
-    "user": {
-        "id": "1574083",
-        "username": "snoopdogg",
-        "full_name": "Snoop Dogg",
-        "profile_picture": "..."
-    }
-}
-* */
-
 public class Token {
     private String accessToken;
     private User user;
